@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:rgb(167, 155, 123);
+    
+    
+}
+
+ .allmenu_items{
+     background-color: royalblue;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     height: 90px;
+     margin-left: 50px;
+ }
+ .mainmenu_div .menu{
+     color: azure;
+     text-decoration: none;
+     font-size: 17px;
+     margin: 20px;
+ }
+ .mainmenu_div a:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+ }
+ .searchspace .newnew{
+     font-size: 20px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+ .searchspace .search_button{
+     font-size: 20px;
+ }
+ .amazing_div .amazing_content{
+     text-align: center;
+    
+ }
+     
+.amazing_div .h4_content{
+    text-align: center;
+    margin: 12px;
+    font-style: italic;
+    font-size: 15px;
+}
+.image_container{
+   display: grid;
+   grid-template-columns: auto auto auto;
+   align-items: center;
+   justify-content: center;
+   border: 10px;
+   border-style: groove;
+   gap: 5px;
+
+   
+}
+
+.image_container .image1 img{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    margin: 10px 20px;
+    padding: 8px 4px;
+    box-sizing: border-box;
+    box-shadow: 0 5px 10px rgb(184, 182, 182);
+    border-radius: 2px;
+}
+
+.image_container .image1 h4 {
+    text-align: center;
+    color:rgb(56, 57, 58);
+    font-size: 20px;
+}
