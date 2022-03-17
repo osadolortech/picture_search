@@ -74,3 +74,17 @@ body{
     color:rgb(56, 57, 58);
     font-size: 20px;
 }
+@media all and (max-width: 500px) {
+    .allmenu_items{
+        margin: 0%;
+        align-self: start;
+       background-color: rgba(0, 0, 0, 0.103);
+    }
+
+    .image_container{
+        gap: 0px;
+        border-style: none;
+        align-items: flex-start;
+        background-color: white;
+    }
+}
